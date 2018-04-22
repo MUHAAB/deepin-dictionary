@@ -29,9 +29,9 @@ MainWindow::MainWindow(QWidget *parent)
 {
     QTextEdit *edit = new QTextEdit;
     setCentralWidget(edit);
-    edit->setText("sadsddddddddddd");
+    edit->setText("past here your words");
 
-    setFixedSize(600, 400);
+    setFixedSize(800, 400);
 
     connect(qApp->clipboard(), &QClipboard::selectionChanged,
             [=] {
