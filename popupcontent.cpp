@@ -29,10 +29,10 @@ PopupContent::PopupContent(QWidget *parent)
     bgWidget->setMaskColor(DBlurEffectWidget::LightColor);
 
     QVBoxLayout *layout = new QVBoxLayout(this);
-    QLabel *label = new QLabel("asddd");
+    QLabel *label = new QLabel("deepin translation");
     layout->addWidget(label);
 
-    setFixedSize(300, 200);
+    setFixedSize(600, 200);
     bgWidget->resize(size());
 
     setAttribute(Qt::WA_TranslucentBackground);
