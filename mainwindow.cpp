@@ -29,7 +29,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     QTextEdit *edit = new QTextEdit;
     setCentralWidget(edit);
-    edit->setText("past here your words");
+    edit->setText("paste here your words");
 
     setFixedSize(800, 400);
 
